@@ -63,7 +63,6 @@ const useGameState = () => {
     return {stars, availableNums, candidateNums, secondsLeft, setGameState};
 }
 
-
 const StarMatch = (props) => {
     const {
         stars,
@@ -128,7 +127,6 @@ const StarMatch = (props) => {
         </div>
     );
 };
-
 
 // Color Theme
 const colors = {
